@@ -1,0 +1,24 @@
+.Login
+{
+    background-image: url(file:///D:/CHARUSAT/WDF%20Lab/Portal/Pictures/Charusat_University_Gujarat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+#form{
+    opacity: 0.9999999;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+    background: blanchedalmond;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    align-items: center;
+}
+header{
+    text-align: center;
+}
+body{
+
+}
