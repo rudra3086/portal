@@ -5,22 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Portal</title>
+     <style>
+      .intro{
+        display: inline-flex;
+      }
+      .navi{
+        text-decoration: none;
+        background-color: aqua;
+        align-items: center;
+      }
+      .navi ul{
+          list-style-type: none;
+           padding: 10px;
+      }
+      .navi li{
+        display:inline;
+          color: rgb(215, 17, 17);
+          text-align: center;
+          padding: 14px 16px;
+          
+      }
+      .navi li :hover {
+  background-color: #eb9494;}
+  .cha{
+    align-items: center;
+    /* align-content: center; */
+  }
+/* ul {
+  list-style-type: none;
+  margin: 0;
+ 
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+} */
+</style> 
 </head>
 <body>
-    <nav>
-       <a href="login.html">Login</a>
-       <a href="register.html">Register</a>
-       <a href="aboutus.html">About Us</a>
-       <a href="Contactus.html"> Contact Us</a>
-    </nav>
-    <h1 style="text-align: center;">CHARUSAT Portal</h1>
-    <p id="info" style="text-align: center;">
+  <div class="navi">
+     <nav>
+      <ul>
+       <li><a  href="login.html">Login</a></li>
+       <li><a  href="register.html">Register</a></li>
+       <li><a  href="aboutus.html">About Us</a></li>
+       <li><a  href="Contactus.html">Contact Us</a></li>
+      </ul>
+    </nav> 
+  </div>
+  <div class="Cha">
+      <p>
+      || अमृतं तु विद्या ||<br>
+      About CHARUSAT<br>
+      </p>
+  </div>
+  <div class="intro">
+    <img src="Pictures\Homepage.png" alt="Homepage">
+    <div>
+      <p>
+      NAAC A+ Accredited University<br>
+      Ranked among Top 200 University by NIRF<br>
+      Ranked among Top 3 Universities in Gujarat by GSIRF<br>
+      Member of United Nations of Academic Impact<br>
+      Achieved Q2 Innovation Rank in 110th IND SCIMAGO Institutions Rankings<br>
+      Certified as Center of Excellence by Goverment of Gujarat
+      </p>
+      </div>
+  </div>
+
+    <h1 >CHARUSAT Portal</h1>
+    <p id="info">
         Its the Student/Admin Portal<br>
         here you can give and get all the live information and of charusat<br>
         And for the students , to get the Assignments , Submissions, and Projects etc;
     </p>
 
 
-    
+    <Script>
+      alert("Welcome to CHARUSAT portal");
+    </Script>
 </body>
 </html>
